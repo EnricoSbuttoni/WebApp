@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import sqlite from 'sqlite3';
 import {Film, FilmLibrary} from './film_module.mjs';
 
@@ -22,7 +21,3 @@ export const listFilm = () =>{
         })
     })
 }
-=======
-import sqlite from sqlite3
-
->>>>>>> 4db25d946e2d47de6d5359d44ace9ee722561aa5
