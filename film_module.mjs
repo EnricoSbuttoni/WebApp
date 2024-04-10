@@ -1,7 +1,6 @@
 
 import dayjs from "dayjs";
 import sqlite from "sqlite3"
-const db=new sqlite.Database('films.db', (err)=>{if(err) throw err;});
 function Film(id, title, isFavorite = false, watchDate = null, rating = 0, userId = 1) {
   this.id = id;
   this.title = title;
